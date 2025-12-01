@@ -1,0 +1,51 @@
+# Produciesta Marketing Website
+title: Produciesta
+description: Transform your screenplays into audio productions with AI-powered voices
+url: "https://produciesta.app"
+baseurl: ""
+
+# Company info
+company_name: Intrusive Memory Productions
+support_email: support@produciesta.app
+
+# Pricing
+pricing:
+  pro_monthly: 4.99
+  pro_yearly: 39.99
+
+# System requirements
+requirements:
+  macos: "26.0+"
+  ios: "26.0+"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
