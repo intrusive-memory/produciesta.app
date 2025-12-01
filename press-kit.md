@@ -24,7 +24,7 @@ permalink: /press-kit/
       <ul>
         <li>Import screenplays from Fountain, Final Draft, PDF, and text formats</li>
         <li>Automatic character and dialogue detection</li>
-        <li>Apple Text-to-Speech voices (Free tier)</li>
+        <li>AI-powered voice library with Apple Text-to-Speech (Free tier) and ElevenLabs premium voices (Pro tier)</li>
         <li>Scene-by-scene audio generation and control</li>
         <li>Export to MP3, WAV, and M4A formats</li>
         <li>Bring Your Own Key (BYOK) integration with ElevenLabs (Pro - standard ElevenLabs API generation charges apply)</li>
