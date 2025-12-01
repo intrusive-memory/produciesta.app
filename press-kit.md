@@ -24,17 +24,17 @@ permalink: /press-kit/
       <ul>
         <li>Import screenplays from Fountain, Final Draft, PDF, and text formats</li>
         <li>Automatic character and dialogue detection</li>
-        <li>AI-powered voice library with multiple voice options</li>
+        <li>Apple Text-to-Speech voices (Free tier)</li>
         <li>Scene-by-scene audio generation and control</li>
         <li>Export to MP3, WAV, and M4A formats</li>
-        <li>Bring Your Own Key (BYOK) integration with ElevenLabs (Pro)</li>
+        <li>Bring Your Own Key (BYOK) integration with ElevenLabs (Pro - standard ElevenLabs API generation charges apply)</li>
         <li>Privacy-first design: screenplays never leave your device</li>
       </ul>
 
       <h3>Pricing</h3>
       <ul>
-        <li><strong>Free:</strong> Limited generations per month, basic voice library</li>
-        <li><strong>Pro:</strong> ${{ site.pricing.pro_monthly }}/month or ${{ site.pricing.pro_yearly }}/year - unlimited generations, premium voices, BYOK</li>
+        <li><strong>Free:</strong> Apple Text-to-Speech voices</li>
+        <li><strong>Pro:</strong> ${{ site.pricing.pro_monthly }}/month or ${{ site.pricing.pro_yearly }}/year - ElevenLabs premium voices via BYOK (standard ElevenLabs API generation charges apply)</li>
       </ul>
 
       <h3>Availability</h3>

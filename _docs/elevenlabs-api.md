@@ -1,11 +1,13 @@
 ---
 layout: doc
 title: ElevenLabs API Key
-description: How to connect your own ElevenLabs API key for unlimited voice generation (Pro feature).
+description: How to connect your own ElevenLabs API key for premium voice generation (Pro feature).
 order: 4
 ---
 
 Pro subscribers can connect their own ElevenLabs API key to Produciesta. This feature, called "Bring Your Own Key" (BYOK), gives you access to your personal ElevenLabs voice library and custom voices.
+
+**Important**: Standard ElevenLabs API generation charges apply when using BYOK. Your API usage is billed directly by ElevenLabs.
 
 ## What is BYOK?
 
@@ -89,7 +91,7 @@ To stop using BYOK:
 1. Go to **Settings** > **Voice Services**
 2. Toggle off **Use ElevenLabs API**
 3. Your API key will be removed
-4. Produciesta will use built-in voices
+4. Produciesta will revert to Apple Text-to-Speech voices
 
 Your ElevenLabs account and voices remain unaffected.
 

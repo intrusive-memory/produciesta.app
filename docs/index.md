@@ -31,7 +31,7 @@ permalink: /docs/
       <a href="{{ '/docs/elevenlabs-api/' | relative_url }}" class="feature-card">
         <div class="feature-icon">🔑</div>
         <h3>ElevenLabs API</h3>
-        <p>Pro feature: Connect your own ElevenLabs API key for unlimited generation.</p>
+        <p>Pro feature: Connect your own ElevenLabs API key for premium voices. (Standard ElevenLabs API generation charges apply.)</p>
       </a>
       <a href="{{ '/docs/exporting/' | relative_url }}" class="feature-card">
         <div class="feature-icon">📤</div>
