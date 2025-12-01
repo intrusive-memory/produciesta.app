@@ -118,7 +118,7 @@ permalink: /pricing/
         </tr>
       </tbody>
     </table>
-    <p style="color: var(--color-text-light); font-size: 0.9rem; margin-top: 1rem;">* Standard ElevenLabs API generation charges apply when using BYOK.</p>
+    <p class="footnote">* Standard ElevenLabs API generation charges apply when using BYOK.</p>
   </div>
 </section>
 
