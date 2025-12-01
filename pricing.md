@@ -34,13 +34,13 @@ permalink: /pricing/
         <div class="pricing-period">or ${{ site.pricing.pro_yearly }}/year (save 33%)</div>
         <ul class="pricing-features">
           <li><span class="check">✓</span> Everything in Free</li>
-          <li><span class="check">✓</span> ElevenLabs premium voices</li>
+          <li><span class="check">✓</span> ElevenLabs premium voices*</li>
           <li><span class="check">✓</span> Bring Your Own Key (ElevenLabs)</li>
           <li><span class="check">✓</span> Advanced voice customization</li>
           <li><span class="check">✓</span> Priority email support</li>
           <li><span class="check">✓</span> Early access to new features</li>
-          <li><span class="check">✓</span> Standard ElevenLabs API charges apply</li>
         </ul>
+        <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: 1rem;">* Standard ElevenLabs API generation charges apply</p>
         <a href="#" class="btn btn-cta">Start Pro Trial</a>
       </div>
     </div>
