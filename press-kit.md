@@ -34,7 +34,7 @@ permalink: /press-kit/
       <h3>Pricing</h3>
       <ul>
         <li><strong>Free:</strong> Limited generations per month, basic voice library</li>
-        <li><strong>Pro:</strong> $4.99/month or $39.99/year - unlimited generations, premium voices, BYOK</li>
+        <li><strong>Pro:</strong> ${{ site.pricing.pro_monthly }}/month or ${{ site.pricing.pro_yearly }}/year - unlimited generations, premium voices, BYOK</li>
       </ul>
 
       <h3>Availability</h3>
