@@ -107,7 +107,7 @@ permalink: /support/
             <li>Voice clones you've created</li>
             <li>ElevenLabs' full voice library</li>
           </ul>
-          <p>See our <a href="{{ '/docs/elevenlabs-api/' | relative_url }}">ElevenLabs API guide</a> for setup instructions.</p>
+          <p>Standard ElevenLabs API generation charges apply. See our <a href="{{ '/docs/elevenlabs-api/' | relative_url }}">ElevenLabs API guide</a> for setup instructions.</p>
         </div>
       </div>
       <div class="faq-item">
@@ -134,11 +134,10 @@ permalink: /support/
         <div class="faq-answer">
           <p>Try these troubleshooting steps:</p>
           <ol>
-            <li><strong>Check your internet connection</strong> - Voice generation requires an active connection</li>
-            <li><strong>Check your generation limit</strong> - Free users have 30 generations/month</li>
+            <li><strong>Check your internet connection</strong> - ElevenLabs voice generation requires an active connection (Apple TTS works offline)</li>
             <li><strong>Try a different voice</strong> - Some voices may have temporary issues</li>
             <li><strong>Restart the app</strong> - Sometimes a fresh start helps</li>
-            <li><strong>Check ElevenLabs status</strong> (BYOK users) - Verify your API key and account quota</li>
+            <li><strong>Check ElevenLabs status</strong> (Pro/BYOK users) - Verify your API key and account quota</li>
           </ol>
           <p>If the issue persists, please <a href="mailto:{{ site.support_email }}">contact support</a> with details about the error.</p>
         </div>

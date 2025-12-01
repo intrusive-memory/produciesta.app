@@ -62,7 +62,7 @@ Once you're happy with your audio:
 
 - Learn more about [importing screenplays]({{ '/docs/importing-screenplays/' | relative_url }})
 - Explore [voice customization options]({{ '/docs/generating-audio/' | relative_url }})
-- Connect your [ElevenLabs API key]({{ '/docs/elevenlabs-api/' | relative_url }}) (Pro)
+- Connect your [ElevenLabs API key]({{ '/docs/elevenlabs-api/' | relative_url }}) for premium voices (Pro - standard ElevenLabs API generation charges apply)
 
 ## Need Help?
 

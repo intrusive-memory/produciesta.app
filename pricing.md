@@ -19,12 +19,11 @@ permalink: /pricing/
         <div class="pricing-period">Forever free</div>
         <ul class="pricing-features">
           <li><span class="check">✓</span> Import Fountain, Final Draft, PDF, and text files</li>
-          <li><span class="check">✓</span> Basic AI voice library</li>
+          <li><span class="check">✓</span> Apple Text-to-Speech voices</li>
           <li><span class="check">✓</span> Character voice assignment</li>
           <li><span class="check">✓</span> Scene-by-scene audio generation</li>
           <li><span class="check">✓</span> Export to MP3, WAV, M4A</li>
-          <li><span class="x">—</span> Limited to 30 generations/month</li>
-          <li><span class="x">—</span> Standard voices only</li>
+          <li><span class="x">—</span> Apple TTS voices only</li>
         </ul>
         <a href="#" class="btn btn-cta">Download Free</a>
       </div>
@@ -35,13 +34,13 @@ permalink: /pricing/
         <div class="pricing-period">or ${{ site.pricing.pro_yearly }}/year (save 33%)</div>
         <ul class="pricing-features">
           <li><span class="check">✓</span> Everything in Free</li>
-          <li><span class="check">✓</span> Unlimited voice generations</li>
-          <li><span class="check">✓</span> Premium AI voice library</li>
+          <li><span class="check">✓</span> ElevenLabs premium voices*</li>
           <li><span class="check">✓</span> Bring Your Own Key (ElevenLabs)</li>
           <li><span class="check">✓</span> Advanced voice customization</li>
           <li><span class="check">✓</span> Priority email support</li>
           <li><span class="check">✓</span> Early access to new features</li>
         </ul>
+        <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: 1rem;">* Standard ElevenLabs API generation charges apply</p>
         <a href="#" class="btn btn-cta">Start Pro Trial</a>
       </div>
     </div>
@@ -88,22 +87,17 @@ permalink: /pricing/
           <td>✓</td>
         </tr>
         <tr>
-          <td>Basic AI voices</td>
+          <td>Apple Text-to-Speech voices</td>
           <td>✓</td>
           <td>✓</td>
         </tr>
         <tr>
-          <td>Premium AI voices</td>
+          <td>ElevenLabs premium voices</td>
           <td>—</td>
           <td>✓</td>
         </tr>
         <tr>
-          <td>Monthly generations</td>
-          <td>30</td>
-          <td>Unlimited</td>
-        </tr>
-        <tr>
-          <td>Bring Your Own Key (ElevenLabs)</td>
+          <td>Bring Your Own Key (ElevenLabs)*</td>
           <td>—</td>
           <td>✓</td>
         </tr>
@@ -124,6 +118,7 @@ permalink: /pricing/
         </tr>
       </tbody>
     </table>
+    <p class="footnote">* Standard ElevenLabs API generation charges apply when using BYOK.</p>
   </div>
 </section>
 
@@ -142,13 +137,13 @@ permalink: /pricing/
       <div class="faq-item">
         <button class="faq-question">Do I need an ElevenLabs account to use Produciesta?</button>
         <div class="faq-answer">
-          <p>No! Produciesta includes a built-in voice library that works out of the box. The BYOK feature is optional and only available to Pro subscribers who want to use their own ElevenLabs voices.</p>
+          <p>No! The free tier uses Apple's built-in Text-to-Speech voices which work out of the box with no additional account needed. The BYOK feature is optional and only available to Pro subscribers who want to use ElevenLabs premium voices.</p>
         </div>
       </div>
       <div class="faq-item">
-        <button class="faq-question">What counts as a "generation"?</button>
+        <button class="faq-question">What's the difference between Free and Pro voice options?</button>
         <div class="faq-answer">
-          <p>A generation is counted each time you generate audio for a scene. If you regenerate the same scene with different settings or voices, that counts as an additional generation. Pro subscribers have unlimited generations.</p>
+          <p>The free tier uses Apple Text-to-Speech, which provides quality voices built into your device at no cost. Pro subscribers can connect their ElevenLabs API key (BYOK) to access ElevenLabs' premium AI voices. Standard ElevenLabs API generation charges apply when using BYOK.</p>
         </div>
       </div>
       <div class="faq-item">

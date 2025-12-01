@@ -16,9 +16,8 @@ This guide covers how to assign AI voices to your characters and generate audio 
 3. The voice library panel will open
 
 The voice library includes:
-- **Standard voices** (Free tier): A selection of quality AI voices
-- **Premium voices** (Pro tier): Extended library with more variety
-- **Your voices** (Pro + BYOK): Custom ElevenLabs voices
+- **Apple Text-to-Speech** (Free tier): Quality voices built into your device
+- **ElevenLabs voices** (Pro tier): Premium AI voices via your ElevenLabs API key (standard ElevenLabs API generation charges apply)
 
 ### Preview Voices
 
@@ -82,8 +81,6 @@ If a scene doesn't sound right:
 2. Switch to a different voice
 3. Regenerate the scene
 
-Each regeneration counts toward your monthly limit (Free tier) or is unlimited (Pro tier).
-
 ## Tips for Best Results
 
 ### Voice Selection
@@ -101,9 +98,8 @@ Each regeneration counts toward your monthly limit (Free tier) or is unlimited (
 - Very long dialogue may need to be split
 - Complex character names may affect pronunciation
 
-## Usage Limits
+## Voice Providers
 
-**Free tier**: 30 generations per month
-**Pro tier**: Unlimited generations
+**Free tier**: Apple Text-to-Speech voices (built into your device, works offline)
 
-A generation is counted each time you generate audio for a scene, including regenerations.
+**Pro tier**: ElevenLabs premium voices via BYOK (Bring Your Own Key). Standard ElevenLabs API generation charges apply.
