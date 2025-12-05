@@ -98,16 +98,37 @@ p {
   align-items: center;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-text);
+.logo-wrapper {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
 }
 
 .logo:hover {
+  color: var(--color-primary);
+}
+
+.logo-from {
+  font-size: 0.7rem;
+  font-weight: 800;
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--color-text-light);
+}
+
+.logo-from a {
+  color: var(--color-text-light);
+}
+
+.logo-from a:hover {
   color: var(--color-primary);
 }
 
@@ -192,22 +213,39 @@ p {
 .hero {
   background: var(--gradient-primary);
   background-image: url('../images/background-1g.jpg');
-  background-size: cover;
-  background-position: center;
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
   color: white;
-  padding: 4rem 2rem 8rem;
-  text-align: center;
+  padding: 0 2rem;
+  aspect-ratio: 16 / 9;
+  position: relative;
 }
 
 .hero-container {
   max-width: var(--max-width);
   margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.hero-top {
+  text-align: center;
 }
 
 .hero h1 {
   font-size: 2.75rem;
-  margin-bottom: 30rem;
+  margin-bottom: 0;
   color: #3d3d3d;
+}
+
+.hero-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .hero p {
@@ -215,14 +253,13 @@ p {
   color: white;
   max-width: 300px;
   text-align: left;
-  margin: 0 0 2rem;
+  margin: 0;
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 /* Buttons */
